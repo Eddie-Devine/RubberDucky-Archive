@@ -1,0 +1,10 @@
+REM AUTHOR: Eddie Devine
+REM TARGET: Windows 10
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd /c start https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+DELAY 3000
+STRING f
