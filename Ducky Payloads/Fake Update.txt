@@ -6,5 +6,5 @@ GUI r
 DELAY 500
 STRING cmd /c start https://updatefaker.com/windows10/index.html
 ENTER
-DELAY 100
+DELAY 1000
 F11
