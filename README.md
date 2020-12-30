@@ -7,11 +7,12 @@ Do not do anything illegal with these payloads. I will NOT be held responsible f
 A bad USB is not really USB. It's an [Arduino](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all) that emulates keyboard input. Because human input is trusted by computers, and almost all operating systems support keyboard input, bad USBs are the ultimate hacking tool. By sending keystrokes to the system they can deploy all sorts of malicious attacks from something as deadly as a reverse shell, to funny jokes like changing someone's background.
 
 **Where To Buy**
-<p>
 Arduino: [Buy](https://www.amazon.com/gp/product/B01MTU9GOB/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+
 Malduino: [Buy](https://maltronics.com/collections/malduinos)
+
 Rubber Ducky: [Buy](https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
-</p>
+
 <br></br>
 <br></br>
 **Setting Up**
