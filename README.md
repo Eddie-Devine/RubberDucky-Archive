@@ -26,6 +26,8 @@ Rubber Ducky: [Set Up](https://blog.hartleybrody.com/rubber-ducky-guide/)
 <br></br>
 **Notes**
 
+If the scripts are not running properly you are either running them on the wrong operating system or the computer is too slow. To find what OS the script is designed for check the comments at the top (REM). If the computer is too slow up the DELAY times.
+
 When downloading an Arduino script make sure you keep it in the folder it came in and make sure you have the [Arduino IDE](https://www.arduino.cc/en/software) installed.
 
 When you upload a script to an Arduino it runs automatically so make sure not to accidentally run a malicious script on your system.
