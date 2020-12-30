@@ -1,0 +1,66 @@
+REM AUTHOR: Eddie Devine
+REM TARGET: Windows 10
+REM DESCRIPTION: Leaves a message on the screen.
+REM DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd /c start notepad octo.txt
+DELAY 500
+ENTER
+DELAY 500
+STRING                        ___
+ENTER
+STRING                     .-'   `'.
+ENTER
+STRING                    /         \
+ENTER
+STRING                    |         ;
+ENTER
+STRING                    |         |   
+ENTER
+STRING        ___.--,
+ENTER
+STRING           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+ENTER
+STRING    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+ENTER
+STRING   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+ENTER
+STRING   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+ENTER
+STRING  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+ENTER
+STRING        | |  .' _.-' |  |  \  \  '.               `~---`
+ENTER
+STRING         \ \/ .'     \  \   '. '-._)
+ENTER
+STRING          \/ /        \  \    `=.__`~-.
+ENTER
+STRING          / /\         `) )    / / `"".`\
+ENTER
+STRING    , _.-'.'\ \        / /    ( (     / /
+ENTER
+STRING     `--~`   ) )    .-'.'      '.'.  | (
+ENTER
+STRING            (/`    ( (`          ) )  '-;
+ENTER
+STRING             `      '-;         (-'
+ENTER
+ENTER
+STRING  really shouldn't plug random usbs into ur compter :/
+ENTER
+CONTROL s
+DELAY 100
+ALT F4
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 100
+F11
+STRING cls
+ENTER
+STRING type octo.txt && del octo.txt
+ENTER
