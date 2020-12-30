@@ -22,7 +22,8 @@ Arduino: [Set Up](https://www.youtube.com/watch?v=_yJWwKO3_Z0)
 Malduino: [Set Up](https://www.youtube.com/watch?v=cI3xlxGRGKU)
 
 Rubber Ducky: [Set Up](https://blog.hartleybrody.com/rubber-ducky-guide/)
-
+<br></br>
+<br></br>
 **Notes**
 
 When downloading an Arduino script make sure you keep it in the folder it came in and make sure you have the [Arduino IDE](https://www.arduino.cc/en/software) installed.
