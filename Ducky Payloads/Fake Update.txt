@@ -1,0 +1,10 @@
+REM AUTHOR: Eddie Devine
+REM TARGET: Windows 10
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd /c start https://updatefaker.com/windows10/index.html
+ENTER
+DELAY 100
+F11
