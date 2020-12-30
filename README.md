@@ -16,11 +16,11 @@ Rubber Ducky: [Buy](https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
 
 **Setting Up**
 
-<p>
 Arduino: [Set Up](https://www.youtube.com/watch?v=_yJWwKO3_Z0)
+
 Malduino: [Set Up](https://www.youtube.com/watch?v=cI3xlxGRGKU)
+
 Rubber Ducky: [Set Up](https://blog.hartleybrody.com/rubber-ducky-guide/)
-</p>
 
 **Notes**
 
