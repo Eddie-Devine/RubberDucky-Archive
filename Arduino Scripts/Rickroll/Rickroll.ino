@@ -1,4 +1,9 @@
 /**
+ * AUTHOR: Eddie Devine
+ * TARGET: Windows 10
+ * DESCRIPTION: Opens Rick Astley's Never Gonna Give You Up on YouTube.
+ * DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
+ * 
  * Made with Duckuino, an open-source project.
  * Check the license at 'https://github.com/Dukweeno/Duckuino/blob/master/LICENSE'
  */
@@ -23,6 +28,8 @@ void setup()
 
   // AUTHOR: Eddie Devine
   // TARGET: Windows 10
+  // DESCRIPTION: Opens Rick Astley's Never Gonna Give You Up on YouTube.
+  // DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
   delay(1000);
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');

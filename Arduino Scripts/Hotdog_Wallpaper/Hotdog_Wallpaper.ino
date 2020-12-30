@@ -1,4 +1,9 @@
 /**
+ * AUTHOR: Eddie Devine
+ * TARGET: Windows 10
+ * DESCRIPTION: Changes the desktop background to a picture of hotdogs.
+ * DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
+ * 
  * Made with Duckuino, an open-source project.
  * Check the license at 'https://github.com/Dukweeno/Duckuino/blob/master/LICENSE'
  */
