@@ -14,6 +14,8 @@ Malduino: [Buy](https://maltronics.com/collections/malduinos)
 
 Rubber Ducky: [Buy](https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
 <br></br>
+<br></br>
+<br></br>
 **Setting Up**
 
 Arduino: [Set Up](https://www.youtube.com/watch?v=_yJWwKO3_Z0)
