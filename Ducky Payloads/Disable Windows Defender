@@ -1,4 +1,3 @@
-
 REM AUTHOR: Eddie Devine
 REM TARGET: Windows 10
 REM DESCRIPTION: Disables Windows Defender by telling it to ignore the C Drive.
