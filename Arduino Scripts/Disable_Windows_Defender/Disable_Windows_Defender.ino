@@ -1,7 +1,7 @@
 /**
  * AUTHOR: Eddie Devine
  * TARGET: Windows 10
- * DESCRIPTION: Disables Windows Defender by telling it to ignore the C Drive.
+ * DESCRIPTION: Disables Windows Defender by telling it to ignore the C drive.
  * DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
  
  * Made with Duckuino, an open-source project.
