@@ -1,6 +1,6 @@
 # Ducky-Scripts
 
-Do not do anything illegal with these payloads. I will NOT be held responsible for any damage.\n
+Do not do anything illegal with these payloads. I will NOT be held responsible for any damage.\
 You may need to adjust the delay times depending on the target machine.
 
 **What is a Bad USB?**
