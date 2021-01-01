@@ -137,7 +137,7 @@ void setup()
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
 
-  delay(2000);
+  delay(750);
   Keyboard.press(KEY_LEFT_ALT);
   Keyboard.press('y');
   Keyboard.releaseAll();
