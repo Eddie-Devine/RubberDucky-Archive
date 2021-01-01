@@ -27,6 +27,7 @@ void setup()
   delay(500);
 
   // Disable Windows Defender:
+  delay(1000);
   Keyboard.press(KEY_LEFT_CTRL);
   Keyboard.press(KEY_ESC);
   Keyboard.releaseAll();
