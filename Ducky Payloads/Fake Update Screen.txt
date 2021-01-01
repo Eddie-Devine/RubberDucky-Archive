@@ -1,9 +1,15 @@
 REM AUTHOR: Eddie Devine
 REM TARGET: Windows 10
-REM DESCRIPTION: Opens a fake update screen.
+REM DESCRIPTION: Opens a full screen Windows update window and turns off other monitors.
 REM DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
 
 DELAY 1000
+GUI p
+DELAY 200
+UP
+UP
+ENTER
+DELAY 300
 GUI r
 DELAY 500
 STRING cmd /c start https://updatefaker.com/windows10/index.html
