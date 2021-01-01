@@ -1,9 +1,9 @@
 /**
  * AUTHOR: Eddie Devine
  * TARGET: Windows 10
- * DESCRIPTION: Opens a fake update screen.
+ * DESCRIPTION: Opens a full screen Windows update window and turns off other monitors.
  * DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
- * 
+ 
  * Made with Duckuino, an open-source project.
  * Check the license at 'https://github.com/Dukweeno/Duckuino/blob/master/LICENSE'
  */
@@ -27,6 +27,18 @@ void setup()
   delay(500);
 
   delay(1000);
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('p');
+  Keyboard.releaseAll();
+
+  delay(200);
+  typeKey(KEY_UP_ARROW);
+
+  typeKey(KEY_UP_ARROW);
+
+  typeKey(KEY_RETURN);
+
+  delay(300);
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   Keyboard.releaseAll();
