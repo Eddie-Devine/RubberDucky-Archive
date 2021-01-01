@@ -1,4 +1,4 @@
-# Ducky-Scripts
+# RubberDucky-Archive
 
 Do not do anything illegal with these payloads. I will NOT be held responsible for any damage.\
 You may need to adjust the delay times depending on the target machine.
