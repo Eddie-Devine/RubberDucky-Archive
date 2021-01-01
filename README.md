@@ -1,6 +1,6 @@
 # RubberDucky-Archive
 
-Do not do anything illegal with these payloads. I will NOT be held responsible for any damage.\
+**DO NOT DO ANYTHING HARMFUL OR ILLEGAL WITH THESE PAYLOADS. I WILL NOT BE HELD RESPONSIBLE FOR ANY DAMAGE.**\
 You may need to adjust the delay times depending on the target machine.
 
 **What is a Bad USB?**\
