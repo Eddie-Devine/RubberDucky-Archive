@@ -3,7 +3,7 @@
  * TARGET: Windows 10
  * DESCRIPTION: Flashes bright colors onto the screen.
  * DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
- * 
+ 
  * Made with Duckuino, an open-source project.
  * Check the license at 'https://github.com/Dukweeno/Duckuino/blob/master/LICENSE'
  */
