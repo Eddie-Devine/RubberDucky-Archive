@@ -25,6 +25,6 @@ When downloading an Arduino script make sure you keep it in the folder it came i
 
 When you upload a script to an Arduino it runs automatically so make sure not to accidentally run a malicious script on your system.
 
-Arduinos are not removable drives. You cannot store files on them. The only exception is the Rubber Ducky. It has something called Twin Duck mode which activates a drive stored inside of it.
+Arduinos are not removable drives. You cannot store files on them. The only exception is the Rubber Ducky. With twin duck mode the ducky activates a small drive stored inside.
 
 If you want to write your own Arduino scripts you can either learn the Arduino scripting language, or you can write in the much easier Ducky Langauge. Before you upload to an Arduino you have to convert your Ducky script to Arduino script. There are many sites to do this but I recommend [Duckuino](https://dukweeno.github.io/Duckuino/).
