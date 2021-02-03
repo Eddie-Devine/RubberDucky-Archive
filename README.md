@@ -3,7 +3,7 @@
 **DO NOT DO ANYTHING HARMFUL OR ILLEGAL WITH THESE PAYLOADS. I WILL NOT BE HELD RESPONSIBLE FOR ANY DAMAGE.**\
 You may need to adjust the delay times depending on the target machine.
 
-(PAYLOADS)[https://github.com/Eddie-Devine/RubberDucky-Archive/wiki/Payloads]
+[PAYLOADS](https://github.com/Eddie-Devine/RubberDucky-Archive/wiki/Payloads)
 
 **What is a Bad USB?**\
 A bad USB is not really USB. It's an [Arduino](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all) that emulates keyboard input. Because human input is trusted by computers, and almost all operating systems support keyboard input, bad USBs are the ultimate hacking tool. By sending keystrokes to the system they can deploy all sorts of malicious attacks from something as deadly as a reverse shell, to funny jokes like changing someone's background.
